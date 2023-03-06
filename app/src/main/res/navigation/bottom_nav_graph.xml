@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_nav_graph"
+    app:startDestination="@id/currentTourFragment">
+
+    <fragment
+        android:id="@+id/currentTourFragment"
+        android:name="com.example.witrans.navigation.CurrentTourFragment"
+        android:label="fragment_current_tour"
+        tools:layout="@layout/fragment_current_tour" />
+    <fragment
+        android:id="@+id/allTourFragment"
+        android:name="com.example.witrans.navigation.AllTourFragment"
+        android:label="fragment_all_tour"
+        tools:layout="@layout/fragment_all_tour" />
+    <fragment
+        android:id="@+id/driverFragment"
+        android:name="com.example.witrans.navigation.DriverFragment"
+        android:label="fragment_driver"
+        tools:layout="@layout/fragment_driver" />
+</navigation>
